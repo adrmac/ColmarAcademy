@@ -245,10 +245,119 @@ header ul li {
 /* StoryGrid */
 
 .story-grid {
-  background-color: whitesmoke;
+  background-color: hsl(0 0% 90%);
 }
 
 .story-grid .section-header {
   text-align: center;
   padding: 32px;
+}
+
+.story-grid .grid-container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.story-grid .story {
+  width: 30%;
+  background-color: white;
+  margin: 16px 1.5%;
+  height: 350px;
+}
+
+.story img {
+  width: 100%;
+}
+
+.story .story-text {
+  padding: 16px;
+}
+
+.story .story-text span {
+  display: block;
+  margin-top: 8px;
+  color: hsl(0 0% 50%);
+}
+
+/* Thesis Exhibit */
+
+.exhibit {
+  background-color: whitesmoke;
+}
+
+.exhibit .section-header {
+  text-align: center;
+  padding: 32px;
+}
+
+.exhibit .section-container {
+  display: flex;
+}
+
+.exhibit .main-story {
+  width: 60%;
+  margin: 24px;
+  margin-top: 0;
+}
+
+.exhibit video {
+  width: 100%;
+  height: auto;
+}
+
+.exhibit .main-story h3 {
+  margin-top: 8px;
+  margin-bottom: 18px;
+}
+
+.exhibit .side-stories {
+  padding: 0;
+}
+
+.exhibit .side-story {
+  height: 168px;
+  padding: 16px;
+}
+
+.exhibit .side-story:nth-child(2n+1) {
+  background-color: lightgray;
+}
+
+.exhibit img {
+  width: auto;
+  height: 100%;
+}
+
+.exhibit .textbox {
+  padding: 16px;
+  margin: 0;
+}
+
+.exhibit .textbox {
+  color: hsl(0 0% 50%);
+}
+
+/* Footer */
+
+footer {
+  background-color: whitesmoke;
+  border-top: 1px solid grey;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+  font-size: .75rem;
+  color: darkgrey;
+}
+
+footer ul {
+  display: flex;
+  color: darkgrey;
+}
+
+footer a {
+  margin-left: 16px;
+  text-decoration: none;
+  color: darkgrey;
 }
